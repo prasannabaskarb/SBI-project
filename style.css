@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----- sbi.html custamization -----*/
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background: linear-gradient(#eefff9 0%,  #ffccc1 49%, #dcdbff 100%);
+    background-size: cover;
+    position: relative;
+}
+.text-box{
+    width: 90%;
+    color: darkblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    text-decoration: none;
+}
+.text-box h1{
+    font-size: 70px;
+}
+.text-box h1 img{
+    margin-right: 10px;
+    width: 100px;
+}
+
+/*------ english button------*/
+
+.btn-dark{
+    margin: 20px 0;
+    color: #fff;
+}
+.btn-dark{
+    background-color: skyblue;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.btn-dark:hover{
+    background-color: black;
+}
+
+/*----- tamil button -----*/
+
+.btn-light{
+    margin: 20px 0;
+    color: #fff;
+}
+.btn-light{
+    background-color: skyblue;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+.btn-light:hover{
+    background-color: black;
+}
+
+
+/*----- tamil button -----*/
+
+.btn-light{
+    background-color: skyblue;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: black;
+}
+.text-box h1 img{
+    width: 70px;
+    background: transparent;
+}
+
+/*----- english and tamil.html custamization -----*/
+
+.sub-header{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(#eefff9 0%,  #ffccc1 49%, #dcdbff 100%);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.sub-header2{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(#eefff9 0%, #ffccc1 49%, #dcdbff 100%);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.sub-header h1{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 50px;
+}
+.button-container{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1320px;
+    margin-top: 170px;
+    gap: 80px;
+    transition: background-color 0.3s;
+}
+.button:hover{
+    background-color: black;
+}
+.button{
+    height: 80px;
+    width: 250px;
+    padding: 10px 20px;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button:hover{
+    background-color: black;
+}
+.button-space{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2605px;
+    margin-top: -480px;
+    gap: 80px;
+}
+.sub-header h2{
+    width: 90%;
+    color: darkblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    text-decoration: none;
+}
+.sub-header h2{
+    font-size: 70px;
+}
+.sub-header h2 img{
+    margin-right: 20px;
+    width: 100px;
+}
+
+/*----- deposit custamization -----*/
+
+.Deposit img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 200%px;
+    margin-top: 80px;
+}
+.Deposit-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 50px;
+    margin-right: 35px;    
+}
+.Deposit-container button{
+    cursor: pointer;
+}
+
+/*----- Debit custamization -----*/
+
+.Debit img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: 380px;
+    margin-top: 170px;
+}
+.Debit-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 50px;
+    margin-right: 20px;    
+}
+
+/*----- Special deposit custamization -----*/
+
+.Special deposit form img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: -50%;
+    max-height: -50%;
+    margin-left: 100px;
+    margin-top: 500px;
+}
+.Special-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 50px;
+    margin-right: 20px; 
+}
+.KYC img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 25%;
+    max-height: 50%;
+    margin-left: 550px;
+    margin-top: 40px;
+}
+.KYC-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 50px;
+    margin-right: 50px; 
+}
+
+/*----- Withdrawal custamization -----*/
+
+.Withdrawl img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 55%;
+    max-height: 50%;
+    margin-left: 350px;
+    margin-top: 120px;
+}
+.Withdrawl-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 50px;
+    margin-right: 20px;
+}
+
+/*----- Banker's cheque application form -----*/
+
+.Banker img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+.Banker-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 50px;
+    margin-right: 20px;
+}
+.assistance img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 88%;
+}
+
+
+
+
+
+
